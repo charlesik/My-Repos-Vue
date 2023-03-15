@@ -9,6 +9,6 @@
 
 <script setup>
     import CurrentList from "@/components/CurrentList.vue";
-    import HeaderTop from "@/components/Header.vue";
+    import HeaderTop from "@/components/HeaderTop.vue";
 </script>
 
