@@ -20,8 +20,8 @@ body{
   padding: 10px;
 }
 .linkItem{
-  width: 35px;
-  height: 35px;
+  width: 70px;
+  height: 50px;
   background: #1D1D1D;
   border-radius: 3px;
   color: white;
@@ -31,8 +31,9 @@ body{
 .linkButtons{
   display: flex;
   /* border: 1px solid red; */
-  justify-content: space-around;
+  justify-content: center;
   width: 50%;
+  margin: auto;
 }
 .sidebar{
   width: 80%;
