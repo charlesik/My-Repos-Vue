@@ -1,29 +1,25 @@
-# vueexam
+# AltSchool Third Semester Exam Project
 
-This template should help get you started developing with Vue 3 in Vite.
+https://my-repos-vue.vercel.app/
 
-## Recommended IDE Setup
+## Project Question
+Create a new vue js application then using the GitHub API, fetch your GitHub repositories using this endpoint https://api.github.com/users/{{USERNAME}}/repos. show a page with a list of all your repositories on GitHub(the page should have some form of pagination). Then create another page showing data for a single repo clicked from the list of repos using nested routes. Make sure to implement a wildcard route to catch 404 pages. NB: Good UI and Designs are important.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Setup Instructions
+To run the project locally on your machine, in the project directory, you can:
 
-## Customize configuration
+Clone the project by running:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## git clone
 
-## Project Setup
+To install dependencies, cd into the project directory and run:
 
-```sh
-npm install
-```
+## npm install
 
-### Compile and Hot-Reload for Development
+To start the development server, run:
 
-```sh
-npm run dev
-```
+## npm run dev
 
-### Compile and Minify for Production
+Runs the app in the development mode.
 
-```sh
-npm run build
-```
+Open http://localhost:your-given-port to view it in your browser.
